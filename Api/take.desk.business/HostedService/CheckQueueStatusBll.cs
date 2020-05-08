@@ -17,7 +17,7 @@ namespace take.desk.business.HostedService
 		private readonly List<string> _botsWithQueueCheck;
 		private readonly ILogger _logger;
 		private readonly int _minutesHostedService = 2;
-		private readonly int _minutesToCloseTicket = 2;
+		private readonly int _minutesToCloseTicket = 30;
 		private readonly string _ticketTag = "Fila Cheia";
 		private readonly int UTC_BRASILIA_TIME = -3;
 
